@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="app.css" />
+    <title>Calculator</title>
+  </head>
+  <body>
+    <section>
+      <header>
+        <h1>calculator</h1>
+      </header>
+      <div class="body">
+        <div class="view" id="viewAnswer">
+          <span></span>
+        </div>
+        <div class="view" id="inputs">
+          <div id="numbOperator">
+            <div class="operators">
+              <input type="button" id="clear" class="btn operator" value="C" />
+              <input
+                type="button"
+                id="ratio"
+                class="btn operator"
+                value="1/x"
+              />
+              <input type="button" id="sqr" class="btn operator" value="sqr" />
+              <input
+                type="button"
+                id="sqrRoot"
+                class="btn operator"
+                value="sqr√x"
+              />
+            </div>
+            <div class="numbers">
+              <input type="button" class="btn btnNumber" value="7" />
+              <input type="button" class="btn btnNumber" value="8" />
+              <input type="button" class="btn btnNumber" value="9" />
+              <input type="button" class="btn btnNumber" value="4" />
+              <input type="button" class="btn btnNumber" value="5" />
+              <input type="button" class="btn btnNumber" value="6" />
+              <input type="button" class="btn btnNumber" value="3" />
+              <input type="button" class="btn btnNumber" value="2" />
+              <input type="button" class="btn btnNumber" value="1" />
+              <input type="button" class="btn btnNumber" value="0" />
+              <input type="button" class="btn btnNumber" value="." />
+              <input type="button" id="plusAndMinus" class="btn" value="+/-" />
+            </div>
+          </div>
+          <div id="mathOperator">
+            <input type="button" id="cut" class="btn" value="DEL" />
+            <input type="button" class="btn btnOprtr" value="/" />
+            <input type="button" class="btn btnOprtr" value="*" />
+            <input type="button" class="btn btnOprtr" value="-" />
+            <input type="button" class="btn btnOprtr" value="+" />
+            <input type="button" id="equal" class="btn" value="=" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="app.js"></script>
+  </body>
+</html>
